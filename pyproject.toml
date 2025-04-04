@@ -8,8 +8,8 @@ authors = [
     { name = "Ghiles Meddour", email = "ghiles.meddour.b@gmail.com" },
 ]
 dependencies = [
-    "aecg>=0.1.0",
-    "streamlit>=1.44.1",
+    "aecg==0.1.0",
+    "streamlit==1.44.1",
 ]
 
 [tool.uv]
