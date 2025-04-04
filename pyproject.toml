@@ -1,0 +1,17 @@
+[project]
+name = "ecg-viewer"
+version = "0.1.0"
+description = "Annotated ECG HL7 parser and viewer"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    { name = "Ghiles Meddour", email = "ghiles.meddour.b@gmail.com" },
+]
+dependencies = [
+    "aecg>=0.1.0",
+    "streamlit>=1.44.1",
+]
+
+[tool.uv]
+package = false
+required-version = ">=0.6.12"
